@@ -1,6 +1,5 @@
 public class Nevera extends Electrodomestico{
-    String  temperatura_minima;
-    //constructor
+    String  temperatura_minima;   
     public Nevera(String capacidad, String color, String marca, String consumo_energia, String temperatura_minima){
         super(capacidad, color, marca, consumo_energia);
         this.temperatura_minima =  temperatura_minima;}
